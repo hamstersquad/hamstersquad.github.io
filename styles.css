@@ -6,14 +6,16 @@
 
 .page-wrapper{
     display: flex;
+    flex-direction: column;
     max-width: 1500px;
-    justify-content: center;
+    align-items: center;
     margin-top: 60px;}
 
 .bio-container {
     display: grid;
     grid-template-columns: 125px 375px;
     align-content: center;
+    margin: 2px;
 }
 
 .bio-img {
@@ -36,4 +38,23 @@
 /* Show the text when the 'visible' class is added */
 .bio-text.visible {
     opacity: 1;
+}
+
+.mods{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-gap: 5px;
+    align-content: center;
+    justify-content: center;
+}
+
+.modpngs{
+    max-width: 150px;
+    margin: 10px;
+}
+
+.modpngs:hover {
+    filter: brightness(0.85);
+    transition: filter ease-in-out 350ms;
 }
