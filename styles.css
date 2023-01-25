@@ -23,12 +23,11 @@
     align-self: center;
 }
 
-
 .bio-text{
     grid-column: 2;
     font-family: 'Poppins', sans-serif;
     align-self: center;
-/* Hide the text */
+    /* Hide the text */
     opacity: 0;
     transform: translateX(5%);
     transition: opacity 700ms ease-in-out, transform 700ms ease-in-out;
@@ -37,5 +36,4 @@
 /* Show the text when the 'visible' class is added */
 .bio-text.visible {
     opacity: 1;
-    transform: translateX(0);
 }
