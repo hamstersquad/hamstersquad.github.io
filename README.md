@@ -1,1 +1,0 @@
-# hamstersquad.github.io
