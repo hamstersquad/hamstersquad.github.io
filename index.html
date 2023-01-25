@@ -2,25 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="Icons/hs.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hamstersquad</title>
 </head>
 <body>
     <div class="page-wrapper">
+
         <div class="bio-container">
-            <img src="pngs/hs.png" alt="hamstersquad" class="bio-img">
+            <img src="pngs/hs.png" alt="hamstersquad" class="bio-img" onclick="location.href='index.html'">
             <div class="bio-text">
                 <h1>hamstersquad</h1>
                 <p>We are furocious language noobie translators.</p>
             </div>
         </div>
+
         <div class="mods">
-            <img src="pngs/itt.png" alt="It Takes Two" class="modpngs itTakesTwo" style="width:100%">
-            <img src="pngs/nttrl.png" alt="No Time To Relax" class="modpngs noTime" style="width:100%">
-            <img src="pngs/pjwt.png" alt="Project Winter" class="modpngs projectWinter" style="width:100%">
+            <img src="pngs/itt.png" alt="It Takes Two" class="modpngs itTakesTwo" onclick="location.href='modPages/it-takes-two.html'">
+            <img src="pngs/nttrl.png" alt="No Time To Relax" class="modpngs noTime" onclick="location.href='modPages/no-time-to-relax.html'">
+            <img src="pngs/pjwt.png" alt="Project Winter" class="modpngs projectWinter" onclick="location.href='modPages/project-winter.html'">
         </div>
+
+        <div class="donate-container">
+            <div class="donate-text">
+                <h2 class="donate-header">สนับสนุนเราได้ที่</h2>
+                <h3>ไทยพาณิชย์ (SCB)</h3>
+                    <div class="banknum">
+                        <h2 class="bank-number" id="bank-number-text">2012681852</h2>
+                    </div>
+                <h3>Jirathip D.</h3>
+            </div>
+        </div>
+
+        <div class="socialLinks">
+            <img src="pngs/facebook.png" alt="Facebook" onclick="location.href='https://facebook.com/onehamstersquad'">
+            <img src="pngs/discord.png" alt="Discord" onclick="location.href='https://discord.gg/NurrBGRc7B'">
+        </div>
+
     </div>
 </body>
 <script src="JavaScript/hs.js"></script>
