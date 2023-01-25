@@ -1,23 +1,19 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins);
-
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box
-;}
+    box-sizing: border-box;
+}
 
 .page-wrapper{
     display: flex;
     flex-direction: column;
-    max-width: 1500px;
     align-items: center;
     margin-top: 60px;}
 
 .bio-container {
     display: grid;
-    grid-template-columns: 125px 375px;
+    grid-template-columns: 115px 375px;
     align-content: center;
-    margin: 2px;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -27,20 +23,18 @@
 }
 
 .bio-img {
-    grid-column: 1;
     height: 100px;
     width: 100px;
     align-self: center;
 }
 
 .bio-text{
-    grid-column: 2;
     font-family: 'Poppins', sans-serif;
     align-self: center;
     /* Hide the text */
     opacity: 0;
     transform: translateX(5%);
-    transition: opacity 700ms ease-in-out, transform 700ms ease-in-out;
+    transition: opacity 750ms ease-in-out, transform 700ms ease-in-out;
 }
 
 /* Show the text when the 'visible' class is added */
@@ -49,20 +43,54 @@
 }
 
 .mods{
-    margin-top: 30px;
+    margin-top: 45px;
     display: grid;
-    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-template-columns: repeat(5, minmax(160px, 1fr));
     grid-gap: 5px;
     align-content: center;
     justify-content: center;
 }
 
 .modpngs{
-    max-width: 150px;
-    margin: 10px;
+    max-width: 160px;
 }
 
 .modpngs:hover {
     filter: brightness(0.85);
     transition: filter ease-in-out 350ms;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+
+    .page-wrapper{
+        margin-top: 30px;
+    }
+
+    .bio-container{
+        grid-template-columns: auto 150px;
+        grid-gap: 5px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .bio-img {
+        height: 75px;
+        width: 75px;
+    }
+
+    .bio-text h1{
+        font-size: 25px;
+    }
+
+    .bio-text p{
+        font-size: 10px;
+    }
+
+    .mods{
+        grid-template-columns: repeat(3, minmax(90px, 1fr));
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
 }
