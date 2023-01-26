@@ -7,26 +7,200 @@
     box-sizing: border-box;
 }
 
-.header{
-    margin-top: 20px;
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+
+.navbar{
+    padding: 10px;
+    position: fixed; /* make the navbar stay on top of the page */
+    top: 0; /* position it at the top of the page */
+    width: 100%;
+    background-color: #465656;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center; /* center the text and image */
+}
+  
+.navbar-text{
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
-.page-wrapper{
-    margin-top: 40px;
-}
-
-.logo{
-    width: 115px;
+.nav-img{
+    height: 50px;
+    width: 50px;
+    align-self: center;
     cursor: pointer;
 }
 
+.navbar-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffe8ce;
+}
+
+.content{
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: 250px 500px;
+    grid-template-areas:
+    "leftside rightside";
+    justify-content: center;
+    align-items: top;
+}
+
 .leftside{
-    margin-top: 60px;
+    grid-area: leftside;
+    justify-content: center;
 }
 
 .modcover{
-    width: 300px;
+    max-width: 250px;
+    border-radius: 15px;
+}
+
+.storeButtons{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-gap: 0px; /* gap between the buttons */
+    align-items: center;
+    justify-content: center;
+}
+
+.steamBtn, .epicBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    background-color: #272727;
+    border-radius: 4px;
+    margin: auto;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.steamBtn:hover, .epicBtn:hover{
+    background-color: #606060;
+}
+
+.storeIcons{
+    filter: brightness(0) invert(1);
+    width: 21px;
+    margin: 0;
+}
+
+.rightside{
+    margin-left: 50px;
+    grid-area: rightside;
+}
+
+.gameTitle{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.gameDescrp{
+    margin-top: 10px;
+    background-color: #ededed;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: Sarabun;
+    font-weight: 400;
+}
+
+.dLbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.downloadBtn{
+    margin: auto;
+    margin-top: 15px;
+    background-color: #272727;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-weight: 500;
+    width: 400px;
+    transition: all 0.2s ease-in-out;
+}
+
+.downloadBtn:hover{
+    background-color: #606060;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-container{
+    margin-top: 100px;
+}
+
+.donate-text{
+    font-family: Sarabun;
+    margin-right: 10px;
+}
+
+.donate-header{
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.donate-text h3{
+    font-weight: 400;
+    font-size: 11px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.banknum{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.bank-number{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.socialLinks{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.socialLinks img{
+    height: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
 }

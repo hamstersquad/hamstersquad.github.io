@@ -10,20 +10,72 @@
 </head>
 <body>
     
-    <div class="header">
-        <img src="../pngs/hs.png" alt="hamstersquad" class="logo" onclick="location.href='../index.html'">
+    <div class="navbar">
+        <img src="../pngs/hs.png" alt="hamstersquad" class="nav-img" onclick="location.href='../index.html'">
+        <div class="navbar-text">
+            <h1>hamstersquad</h1>
+        </div>
     </div>
 
-        <div class="page-wrapper">
+    <div class="content">
 
             <div class="leftside">
                 <img class="modcover" src="../pngs/itt.png" alt="It Takes Two">
             </div>
+                <div class="storeButtons">
+                    <a href="https://store.steampowered.com/app/1426210/It_Takes_Two/" target='_blank'>
+                        <div class="steamBtn">
+                            <img src="../pngs/steam-logo.png" alt="Steam Icon" class="storeIcons">
+                        </div>
+                    </a>
+                
+                    <a href="https://store.epicgames.com/en-US/p/it-takes-two" target='_blank'>
+                        <div class="epicBtn">
+                            <img src="../pngs/Epic_Games_logo.png" alt="Epic Icon" class="storeIcons">
+                        </div>
+                    </a>
+                </div>
 
             <div class="rightside">
-                <h1>It Takes Two</h1>
+                <h1 class="gameTitle">It Takes Two</h1>
+                <p class="gameDescrp"><b>เวอร์ชั่น:</b> 1.0.0<br>
+                    <b>อัพเดตล่าสุด:</b> 26 ม.ค. 2566<br>
+                    <b>วิธีการติดตั้ง:</b> แตกไฟล์ที่ดาวน์โหลดมา และลากโฟลเดอร์
+                    Nuts ไปใส่ในพื้นที่ที่เราติดตั้งเกมไว้
+                    Steam > steamapps > common > ItTakesTwo
+                </p>
             </div>
+                <div class="dLbutton">
+                    <a href="../modFiles/It Takes Two v1.0.0.rar" download>
+                        <button class="downloadBtn">DOWNLOAD</button>
+                    </a>
+                </div>
 
+    </div>
+
+        <div class="footer">
+            <div class="donate-container">
+                <div class="donate-text">
+                    <h2 class="donate-header">สนับสนุนเราได้ที่</h2>
+                    <h3>ไทยพาณิชย์ (SCB)</h3>
+                        <div class="banknum">
+                            <h2 class="bank-number" id="bank-number-text">2012681852</h2>
+                        </div>
+                    <h3>Jirathip D.</h3>
+                </div>
+            </div>
+    
+            <div class="socialLinks">
+                <img src="../pngs/facebook.png" alt="Facebook" onclick="window.open('https://facebook.com/onehamstersquad', '_blank');">
+                <img src="../pngs/youtube.png" alt="YouTube" onclick="window.open('https://www.youtube.com/@onehamstersquad', '_blank');">
+                <img src="../pngs/discord.png" alt="Discord" onclick="window.open('https://discord.gg/NurrBGRc7B', '_blank');">
+            </div>
         </div>
+
+    <script>
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            document.body.innerHTML = "รบกวนเปิดบน PC ไปก่อนจ้า";
+        }
+    </script>
 </body>
 </html>
