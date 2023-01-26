@@ -119,13 +119,13 @@
     font-weight: 400;
 }
 
-.dLbutton {
+.dLbutton{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.downloadBtn{
+.downloadBtn, .downloadBtnMac{
     margin: auto;
     margin-top: 15px;
     background-color: #272727;
@@ -138,7 +138,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-.downloadBtn:hover{
+.downloadBtn:hover, .downloadBtnMac:hover{
     background-color: #606060;
 }
 
