@@ -2,13 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="Icons/hs.ico">
+    <link rel="stylesheet" href="../CSS/modpages.css">
+    <link rel="icon" type="image/x-icon" href="../Icons/hs.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It Takes Two</title>
 </head>
 <body>
-    <h1>temp</h1>
+    
+    <div class="navbar">
+        <img src="../pngs/hs.png" alt="hamstersquad" class="nav-img" onclick="location.href='../index.html'">
+        <div class="navbar-text">
+            <h1>hamstersquad</h1>
+        </div>
+    </div>
+
+    <div class="content">
+
+            <div class="leftside">
+                <img class="modcover" src="../pngs/pjwt.png" alt="Project Winter">
+            </div>
+                <div class="storeButtons">
+                    <a href="https://store.steampowered.com/app/774861/Project_Winter/" target='_blank'>
+                        <div class="steamBtn">
+                            <img src="../pngs/steam-logo.png" alt="Steam Icon" class="storeIcons">
+                        </div>
+                    </a>
+                
+                    <a href="" target=''>
+                        <div class="epicBtn">
+                            <img src="../pngs/Epic_Games_logo.png" alt="Epic Icon" class="storeIcons">
+                        </div>
+                    </a>
+                </div>
+
+            <div class="rightside">
+                <h1 class="gameTitle">Project Winter</h1>
+                <p class="gameDescrp"><b>เวอร์ชั่น:</b> 1.0.2<br>
+                    <b>อัพเดตล่าสุด:</b> 27 ธ.ค. 2565<br>
+                    <b>วิธีการติดตั้ง:</b> แตกไฟล์ที่ดาวน์โหลดมา และลากโฟลเดอร์<br>
+                    ProjectWinter_Data ไปใส่ในพื้นที่ที่เราติดตั้งเกมไว้
+                    Steam > steamapps > common > Project Winter<br>
+                    เลือกวางทับ (Replace) ไปเลย
+                </p>
+            </div>
+                <div class="dLbutton">
+                    <a href="../modFiles/Project Winter Mod v1.0.2.rar" download>
+                        <button class="downloadBtn">DOWNLOAD</button>
+                    </a>
+                </div>
+
+    </div>
+
+        <div class="footer">
+            <div class="donate-container">
+                <div class="donate-text">
+                    <h2 class="donate-header">สนับสนุนเราได้ที่</h2>
+                    <h3>ไทยพาณิชย์ (SCB)</h3>
+                        <div class="banknum">
+                            <h2 class="bank-number" id="bank-number-text">2012681852</h2>
+                        </div>
+                    <h3>Jirathip D.</h3>
+                </div>
+            </div>
+    
+            <div class="socialLinks">
+                <img src="../pngs/facebook.png" alt="Facebook" onclick="window.open('https://facebook.com/onehamstersquad', '_blank');">
+                <img src="../pngs/youtube.png" alt="YouTube" onclick="window.open('https://www.youtube.com/@onehamstersquad', '_blank');">
+                <img src="../pngs/discord.png" alt="Discord" onclick="window.open('https://discord.gg/NurrBGRc7B', '_blank');">
+            </div>
+        </div>
+
+    <script>
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            document.body.innerHTML = "รบกวนเปิดบน PC ไปก่อนจ้า";
+        }
+    </script>
 </body>
 </html>
