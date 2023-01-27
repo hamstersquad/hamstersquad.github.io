@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center; /* center the text and image */
+    z-index: 2;
 }
   
 .navbar-text{
