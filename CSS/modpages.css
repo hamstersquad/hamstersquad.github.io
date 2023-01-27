@@ -90,7 +90,23 @@
 }
 
 .steamBtn:hover, .epicBtn:hover{
-    background-color: #606060;
+    background-color: #000000;
+}
+
+.noepicBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    background-color: #272727;
+    border-radius: 4px;
+    margin: auto;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.noepicBtn:hover{
+    background-color: #600000;
 }
 
 .storeIcons{
@@ -140,7 +156,7 @@
 }
 
 .downloadBtn:hover, .downloadBtnMac:hover{
-    background-color: #606060;
+    background-color: #000000;
 }
 
 .footer{
@@ -225,7 +241,7 @@
         border-radius: 15px;
     }
 
-    .steamBtn, .epicBtn{
+    .steamBtn, .epicBtn, .noepicBtn{
         width: 75px;
         height: 45px;
     }
