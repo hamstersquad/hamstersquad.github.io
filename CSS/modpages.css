@@ -240,7 +240,8 @@
     }
 
     .modcover{
-        max-width: 175px;
+        width: 175px;
+        height: 175px;
         border-radius: 15px;
     }
 
