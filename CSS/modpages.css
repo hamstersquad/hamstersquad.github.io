@@ -217,6 +217,7 @@
 
 .socialLinks img{
     height: 25px;
+    width: 25px;
     margin: 5px;
     cursor: pointer;
 }
