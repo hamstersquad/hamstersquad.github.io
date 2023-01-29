@@ -7,12 +7,12 @@
     box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0px;
     background: transparent;
 }
 
-.navbar{
+.navbar {
     padding: 10px;
     position: fixed; /* make the navbar stay on top of the page */
     top: 0; /* position it at the top of the page */
@@ -24,7 +24,7 @@
     z-index: 2;
 }
   
-.navbar-text{
+.navbar-text {
     margin-left: 10px;
     font-family: 'Poppins', sans-serif;
     -webkit-user-select: none;
@@ -36,7 +36,7 @@
     cursor: pointer;
 }
 
-.nav-img{
+.nav-img {
     height: 50px;
     width: 50px;
     align-self: center;
@@ -50,7 +50,7 @@
     color: #ffe8ce;
 }
 
-.content{
+.content {
     margin-top: 140px;
     display: grid;
     grid-template-columns: 250px 500px;
@@ -60,17 +60,17 @@
     align-items: top;
 }
 
-.leftside{
+.leftside {
     grid-area: leftside;
     justify-content: center;
 }
 
-.modcover{
+.modcover {
     max-width: 250px;
     border-radius: 15px;
 }
 
-.storeButtons{
+.storeButtons {
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
@@ -79,7 +79,7 @@
     justify-content: center;
 }
 
-.steamBtn, .epicBtn{
+.steamBtn, .epicBtn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,11 +91,11 @@
     transition: background-color 0.3s ease-in-out;
 }
 
-.steamBtn:hover, .epicBtn:hover{
+.steamBtn:hover, .epicBtn:hover {
     background-color: #000000;
 }
 
-.noepicBtn{
+.noepicBtn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,28 +107,28 @@
     transition: background-color 0.3s ease-in-out;
 }
 
-.noepicBtn:hover{
+.noepicBtn:hover {
     background-color: #600000;
 }
 
-.storeIcons{
+.storeIcons {
     filter: brightness(0) invert(1);
     width: 21px;
     margin: 0;
 }
 
-.rightside{
+.rightside {
     margin-left: 50px;
     grid-area: rightside;
 }
 
-.gameTitle{
+.gameTitle {
     font-family: Poppins;
     font-weight: 700;
     font-size: 50px;
 }
 
-.gameDescrp{
+.gameDescrp {
     margin-top: 10px;
     background-color: #ededed;
     padding: 30px;
@@ -137,13 +137,13 @@
     font-weight: 400;
 }
 
-.dLbutton{
+.dLbutton {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.downloadBtn, .downloadBtnMac{
+.downloadBtn, .downloadBtnMac {
     margin: auto;
     margin-top: 15px;
     background-color: #272727;
@@ -157,27 +157,27 @@
     cursor: pointer;
 }
 
-.downloadBtn:hover, .downloadBtnMac:hover{
+.downloadBtn:hover, .downloadBtnMac:hover {
     background-color: #000000;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.donate-container{
+.donate-container {
     margin-top: 100px;
 }
 
-.donate-text{
+.donate-text {
     font-family: Sarabun;
     margin-right: 10px;
 }
 
-.donate-header{
+.donate-header {
     font-weight: 600;
     font-size: 14px;
     -webkit-user-select: none;
@@ -188,7 +188,7 @@
     user-select: none;
 }
 
-.donate-text h3{
+.donate-text h3 {
     font-weight: 400;
     font-size: 11px;
     -webkit-user-select: none;
@@ -199,31 +199,31 @@
     user-select: none;
 }
 
-.banknum{
+.banknum {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
 }
 
-.bank-number{
+.bank-number {
     font-weight: 600;
     font-size: 24px;
 }
 
-.socialLinks{
+.socialLinks {
     margin-top: 50px;
     margin-bottom: 15px;
 }
 
-.socialLinks img{
+.socialLinks img {
     height: 25px;
     width: 25px;
     margin: 5px;
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px){
-    .content{
+@media only screen and (max-width: 768px) {
+    .content {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -231,26 +231,26 @@
         align-content: center;
     }
 
-    .leftside{
+    .leftside {
         order: 1;
     }
     
-    .rightside{
+    .rightside {
         order: 2;
     }
 
-    .modcover{
+    .modcover {
         width: 175px;
         height: 175px;
         border-radius: 15px;
     }
 
-    .steamBtn, .epicBtn, .noepicBtn{
+    .steamBtn, .epicBtn, .noepicBtn {
         width: 75px;
         height: 45px;
     }
 
-    .rightside{
+    .rightside {
         margin-top: 25px;
         margin-left: 0px;
         display: flex;
@@ -260,17 +260,17 @@
         align-content: center;
     }
     
-    .gameTitle{
+    .gameTitle {
         font-family: Poppins;
         font-weight: 700;
         font-size: 35px;
     }
     
-    .gameDescrp{
+    .gameDescrp {
         width: 70%;
     }
 
-    .downloadBtn, .downloadBtnMac{
+    .downloadBtn, .downloadBtnMac {
         width: 250px;
     }
 }
