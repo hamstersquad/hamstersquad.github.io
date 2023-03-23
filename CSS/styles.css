@@ -13,11 +13,33 @@
     background: transparent;
 }
 
+::placeholder {
+    color: #ffe8ce;
+}
+
 .page-wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 0px;
+    background-color: #465656;
+    background-image: url("../pngs/BG.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.page-wrapper::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: 0;
 }
 
 .navbar {
@@ -25,10 +47,12 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #465656;
+    height: 60px;
+    background-color: rgba(70, 86, 86, 0.95);
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
   
 .navbar-text {
@@ -49,13 +73,6 @@
     opacity: 1;
 }
 
-.nav-img {
-    height: 50px;
-    width: 50px;
-    align-self: center;
-    cursor: pointer;
-}
-
 .navbar-text h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -63,22 +80,59 @@
     color: #ffe8ce;
 }
 
+.banner {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    z-index: 1;
+}
+
+.bannerDescrp {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60px;
+    color: #ffe8ce;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.223);
+}
+
+.topHS {
+    width: 25%;
+}
+
 .search-container {
-    margin-top: 100px;
-    border-bottom: 0.1em solid #000;
+    position: relative;
+    z-index: 1;
+    margin-top: 75px;
+    border-bottom: 0.1em solid #ffe8ce;
 }
 
 .search-input {
+    color: #ffe8ce;
     border: none;
     outline: none;
-    font-family: Poppins;
+    font-family: Poppins, Sarabun;
     font-size: 14px;
     width: 200px;
     height: 30px;
+    background-color: transparent;
+}
+
+.modsBlock {
+    position: relative;
+    z-index: 1;
+    margin-top: 35px;
+    background-color: rgba(70, 86, 86, 0.799);
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
 .mods {
-    margin-top: 35px;
+    margin: 20px;
     display: grid;
     grid-template-columns: repeat(5, minmax(160px, 1fr));
     grid-gap: 5px;
@@ -91,6 +145,7 @@
     height: 160px;
     cursor: pointer;
     border-radius: 10%;
+    opacity: 95%;
 }
 
 .modpngs:hover {
@@ -99,35 +154,30 @@
 }
 
 .donate-container {
+    position: relative;
+    z-index: 1;
     margin-top: 100px;
     display: flex;
     align-items: center;
 }
 
 .donate-text {
-    font-family: Sarabun;
+    font-family: Poppins, IBM Plex Sans Thai;
     margin-right: 10px;
+    line-height: 22px;
+    color: #ffe8ce;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.223);
 }
 
 .donate-header {
     font-weight: 600;
     font-size: 16px;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
     user-select: none;
 }
 
 .donate-text h3 {
     font-weight: 400;
     font-size: 12px;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
     user-select: none;
 }
 
@@ -143,6 +193,8 @@
 }
 
 .socialLinks {
+    position: relative;
+    z-index: 1;
     margin-top: 50px;
 }
 
@@ -151,32 +203,26 @@
     margin: 5px;
     margin-bottom: 15px;
     cursor: pointer;
+    filter: invert(85%);
 }
 
 @media screen and (max-width: 768px){
 
-    .page-wrapper {
-        margin-top: 30px;
+    .banner {
+        margin-top: 20%;
     }
 
-    .bio-container {
-        grid-template-columns: 75px 150px;
-        grid-gap: 5px;
-        align-content: center;
-        justify-content: center;
+    .bannerDescrp {
+        font-size: 4.2vw;
+        line-height: 120%;
     }
 
-    .bio-img {
-        height: 75px;
-        width: 75px;
+    .topHS {
+        width: 40%;
     }
 
-    .bio-text h1 {
-        font-size: 22px;
-    }
-
-    .bio-text p {
-        font-size: 8.5px;
+    .search-container {
+        margin-top: 8vw;
     }
 
     .search-input {
@@ -185,7 +231,7 @@
     }
 
     .mods {
-        margin-top: 25px;
+        margin-top: 10px;
         grid-template-columns: repeat(2, minmax(130px, 1fr));
         margin-left: 10px;
         margin-right: 10px;

@@ -16,8 +16,10 @@ function slideBioText() {
 setTimeout(slideBioText, 700);
 //END OF BIO SLIDING AND FADE-IN TEXT//
 
+//Seach box
 const searchInput = document.getElementById("search-input");
 const modImages = document.querySelectorAll(".modpngs");
+const modsBlock = document.querySelector(".modsBlock");
 
 searchInput.addEventListener("input", function() {
     const searchTerm = this.value.toLowerCase();
