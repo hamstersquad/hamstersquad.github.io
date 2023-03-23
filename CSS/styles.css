@@ -82,7 +82,7 @@
 
 .banner {
     position: relative;
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,7 @@
 .search-container {
     position: relative;
     z-index: 1;
-    margin-top: 75px;
+    margin-top: 50px;
     border-bottom: 0.1em solid #ffe8ce;
 }
 
