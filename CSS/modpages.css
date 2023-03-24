@@ -212,11 +212,15 @@
 }
 
 .donate-text {
-    font-family: Poppins, IBM Plex Sans Thai;
+    font-family: Poppins;
     margin-right: 10px;
     line-height: 22px;
     color: rgb(193, 182, 170);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.223);
+}
+
+.scb {
+    font-family: IBM Plex Sans Thai;
 }
 
 .donate-header {
