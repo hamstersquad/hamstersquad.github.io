@@ -236,6 +236,7 @@
 
     .mods {
         margin-top: 10px;
+        margin-bottom: 10px;
         grid-template-columns: repeat(2, minmax(130px, 1fr));
         margin-left: 10px;
         margin-right: 10px;
