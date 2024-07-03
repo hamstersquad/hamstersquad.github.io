@@ -13,13 +13,16 @@ order: 5
 **Jirathip D.**
 
 วัยรุ่นหมดไฟ แต่ใจพร้อมเรียนรู้ นักม็อด และนักแปลประจำทีม\
-<i class="fa-solid fa-graduation-cap"></i> Bachelor’s, Liberal Arts, Mahidol University (Aug 2021 - Apr 2023, resigned)
-<i class="fa-solid fa-cake-candles"></i>
+<i class="fa-solid fa-graduation-cap"></i> Bachelor’s, Liberal Arts, Mahidol University (Aug 2021 - Apr 2023, resigned)\
+<i class="fa-solid fa-cake-candles"></i> March 9, 2003\
 \
 \
 \
+
 ![PG](../assets/img/pfp/pg.jpg){: width="175" height="175" .right}
 
 **Paradorn G.**
 
 แฮมสเตอร์แรงงาน aka. ลาเต้บอย นักแปล และตรวจทานประจำทีม
+<i class="fa-solid fa-graduation-cap"></i> undefined\
+<i class="fa-solid fa-cake-candles"></i> undefined\
