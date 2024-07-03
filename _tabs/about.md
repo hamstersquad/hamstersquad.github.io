@@ -8,5 +8,5 @@ order: 5
 
 ### Jirathip D.
 
-![JD](../assets/img/pfp/jd.jpg){: width="300" height="300" .w-50 .left}
+![JD](../assets/img/pfp/jd.jpg){: width="175" height="175" .left}
 วัยรุ่นหมดไฟ แต่ใจพร้อมเรียนรู้ นักม็อด และนักแปลประจำทีม
