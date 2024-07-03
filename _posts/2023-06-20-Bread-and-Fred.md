@@ -23,6 +23,9 @@ image:
 
 ## ภาพตัวอย่าง
 
+![Preview](https://staticdelivery.nexusmods.com/mods/5401/images/1/1-1685352285-312644438.png){: width="972" height="589" }
+![Preview2](https://staticdelivery.nexusmods.com/mods/5401/images/1/1-1685352285-632866065.png){: width="972" height="589" }
+
 ## ดาวน์โหลด
-[**Download**](https://www.nexusmods.com/breadandfred/mods/1)
+[**NexusMods**](https://www.nexusmods.com/breadandfred/mods/1)
 
