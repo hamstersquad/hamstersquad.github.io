@@ -18,11 +18,11 @@ order: 5
 \
 \
 \
-
+\
 ![PG](../assets/img/pfp/pg.jpg){: width="175" height="175" .right}
 
 **Paradorn G.**
 
-แฮมสเตอร์แรงงาน aka. ลาเต้บอย นักแปล และตรวจทานประจำทีม
+แฮมสเตอร์แรงงาน aka. ลาเต้บอย นักแปล และตรวจทานประจำทีม\
 <i class="fa-solid fa-graduation-cap"></i> undefined\
-<i class="fa-solid fa-cake-candles"></i> undefined\
+<i class="fa-solid fa-cake-candles"></i> undefined
