@@ -1,6 +1,6 @@
 ---
 title: It Takes Two
-date: 2023-06-20 16:33:00 +0700
+date: 2023-02-17 16:33:00 +0700
 categories: [Mods]
 tags: [modding,localization]
 description: ม็อดแปลภาษาไทยเกม It Takes Two ซับไตเติล และ UI ทั้งหมด

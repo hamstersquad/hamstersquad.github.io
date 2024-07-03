@@ -1,8 +1,12 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+## ทีมงาน
+
+### Jirathip D.
+
+![JD](../assets/img/pfp/jd.jpg){: width="300" height="300" .w-50 .left}
+วัยรุ่นหมดไฟ แต่ใจพร้อมเรียนรู้ นักม็อด และนักแปลประจำทีม
