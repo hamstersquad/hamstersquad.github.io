@@ -16,6 +16,8 @@ hamstersquad ถูกก่อตั้งขึ้นในปี 2023 โด�
 \
 \
 \
+\
+\
 ![PG](../assets/img/pfp/pg.jpg){: width="175" height="175" .right}
 
 **Paradorn G.**
