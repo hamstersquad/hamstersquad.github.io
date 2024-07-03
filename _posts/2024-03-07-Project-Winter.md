@@ -2,7 +2,7 @@
 title: Project Winter
 date: 2023-02-27 16:33:00 +0700
 categories: [Mods]
-tags: [modding]
+tags: [modding,localization]
 description: ม็อดแปลภาษาไทยเกม Project Winter ทั้ง UI และคำอธิบายต่าง ๆ ในเกม
 image:
   path: ../assets/img/mods/pjwt/cover.png
@@ -13,13 +13,12 @@ image:
 {: .prompt-danger }
 
 
-ใช้ความสามัคคีเพื่อทำเป้าหมายให้สำเร็จ และต้องคอยระวังการหักหลัง เอาชีวิตรอดไปจากดินแดนที่หนาวเหน็บแห่งนี้ Project Winter เกมปาร์ตี้แนว Among Us และ Goose Goose Duck ที่มี Mechanics มากมาย และอาจสนุกกว่าหลายเท่า เชื่อว่าหลาย ๆ คนมีเกมนี้อยู่ในคลัง แต่ด้วยกำแพงทางด้านภาษาอาจทำให้ตัวเกมนั้นเข้าใจยาก และผู้เล่นเลิกเล่นไปในที่สุด ถึงเวลาแล้วที่จะชวนเพื่อนมาซื้อและกลับมาเล่นด้วยกัน ด้วยม็อดภาษาไทยจาก hamstersquad!
+ใช้ความสามัคคีเพื่อทำเป้าหมายให้สำเร็จ และต้องคอยระวังการหักหลัง เอาชีวิตรอดไปจากดินแดนที่หนาวเหน็บแห่งนี้ Project Winter เกมปาร์ตี้แนว Among Us และ Goose Goose Duck ที่มี Mechanics มากมาย และอาจสนุกกว่าหลายเท่า เชื่อว่าหลาย ๆ คนมีเกมนี้อยู่ในคลัง แต่ด้วยกำแพงทางด้านภาษาอาจทำให้ตัวเกมนั้นเข้าใจยาก และผู้เล่นเลิกเล่นไปในที่สุด ถึงเวลาแล้วที่จะชวนเพื่อนมาซื้อและกลับมาเล่นด้วยกัน ด้วยม็อดภาษาไทยจาก hamstersquad
 
 
-## วิธีการติดตั้ง:
+## วิธีการติดตั้ง
 > แตกไฟล์ที่ดาวน์โหลดมา และลากโฟลเดอร์
-ProjectWinter_Data ไปใส่ในพื้นที่ที่เราติดตั้งเกมไว้ `Steam/steamapps/common/Project Winter`{: .filepath}
+**ProjectWinter_Data** ไปใส่ในพื้นที่ที่เราติดตั้งเกมไว้ `Steam/steamapps/common/Project Winter`{: .filepath}
 เลือกวางทับ (Replace) ไปเลย
 
-<Download|https://www.nexusmods.com/projectwinter/mods/1>
-
+[Download](https://www.nexusmods.com/projectwinter/mods/1):
