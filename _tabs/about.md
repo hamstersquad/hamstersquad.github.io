@@ -13,7 +13,7 @@ order: 5
 **Jirathip D.**
 
 วัยรุ่นหมดไฟ แต่ใจพร้อมเรียนรู้ นักม็อด และนักแปลประจำทีม\
-<i class="fa-solid fa-graduation-cap"></i> Bachelor’s, Liberal Arts, Mahidol University (Aug 2021 - Apr 2023, resigned)\
+<i class="fa-solid fa-graduation-cap"></i> Bachelor’s, Liberal Arts, Mahidol University (Aug 2021 - Apr 2023, กูลาออก)\
 <i class="fa-solid fa-cake-candles"></i> March 9, 2003\
 \
 \
