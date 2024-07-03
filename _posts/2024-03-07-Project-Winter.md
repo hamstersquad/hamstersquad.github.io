@@ -21,4 +21,9 @@ image:
 **ProjectWinter_Data** ไปใส่ในพื้นที่ที่เราติดตั้งเกมไว้ `Steam/steamapps/common/Project Winter`{: .filepath}
 เลือกวางทับ (Replace) ไปเลย
 
-[Download](https://www.nexusmods.com/projectwinter/mods/1):
+## ภาพตัวอย่าง
+![Preview](https://staticdelivery.nexusmods.com/mods/5401/images/1/1-1685352285-312644438.png){: width="972" height="589" }
+![Preview2](https://staticdelivery.nexusmods.com/mods/5401/images/1/1-1685352285-632866065.png){: width="972" height="589" }
+
+## ดาวน์โหลด
+[**Nexus**](https://www.nexusmods.com/projectwinter/mods/1)

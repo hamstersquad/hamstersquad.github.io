@@ -21,5 +21,8 @@ image:
 **Bread&Fred_Data** ไปใส่ในพื้นที่ที่เราติดตั้งเกมไว้ `Steam/steamapps/common/Bread & Fred`{: .filepath}
 เลือกวางทับ (Replace) ไปเลย
 
-[**Download**](https://www.nexusmods.com/breadandfred/mods/1):
+## ภาพตัวอย่าง
+
+## ดาวน์โหลด
+[**Download**](https://www.nexusmods.com/breadandfred/mods/1)
 
