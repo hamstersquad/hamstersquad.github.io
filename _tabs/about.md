@@ -15,10 +15,8 @@ order: 5
 วัยรุ่นหมดไฟ แต่ใจพร้อมเรียนรู้ นักม็อด และนักแปลประจำทีม
 
 <i class="fa-solid fa-graduation-cap"></i> คณะศิลปศาสตร์ สาขาวิชาภาษาอังกฤษ มหาวิทยาลัยมหิดล\
-   (Aug 2021 - Apr 2023, กูลาออก)\
-<i class="fa-solid fa-cake-candles"></i> March 9, 2003\
-\
-\
+(ส.ค. 2021 - เม.ย. 2023, กูลาออก)\
+<i class="fa-solid fa-cake-candles"></i> มีนาคม 9, 2003\
 \
 \
 ![PG](../assets/img/pfp/pg.jpg){: width="175" height="175" .right}
@@ -27,5 +25,11 @@ order: 5
 
 แฮมสเตอร์แรงงาน aka. ลาเต้บอย นักแปล และตรวจทานประจำทีม
 
-<i class="fa-solid fa-graduation-cap"></i> undefined\
-<i class="fa-solid fa-cake-candles"></i> undefined
+<i class="fa-solid fa-graduation-cap"></i> ไม่ระบุ\
+<i class="fa-solid fa-cake-candles"></i> ไม่ระบุ
+
+## ช่องทางการติดต่อ
+
+หากชื่นชอบในผลงานของเรา มีเกมที่อยากให้เราแปล อยากจ้างงานเชิญได้ที่  
+<i class="fa-brands fa-square-facebook"></i> [hamstersquad](https://www.facebook.com/onehamstersquad/)
+<i class="fa-solid fa-envelope"></i> <onetucker@duck.com>
