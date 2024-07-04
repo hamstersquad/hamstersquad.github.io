@@ -14,9 +14,9 @@ timezone: Asia/Bangkok
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: # the main title
+title: Hamstersquad # the main title
 
-tagline: # it will display as the sub-title
+tagline: Fur-rocious noobie translators # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Game localization modding team founded by a group of noobie translators located in Bangkok, Thailand.

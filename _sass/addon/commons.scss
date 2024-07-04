@@ -728,6 +728,7 @@ $btn-mb: 0.5rem;
   }
 
   .site-title {
+    display: none /* no show */
     font-family: inherit;
     font-weight: 900;
     font-size: 1.70rem;
@@ -745,6 +746,7 @@ $btn-mb: 0.5rem;
   }
 
   .site-subtitle {
+    display: none /* no show */
     font-size: 95%;
     color: var(--site-subtitle-color);
     margin-top: 0.25rem;
