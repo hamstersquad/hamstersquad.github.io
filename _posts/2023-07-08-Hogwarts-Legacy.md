@@ -16,7 +16,7 @@ image:
 ## วิธีการติดตั้ง
 
 > ไปยังที่ที่ติดตั้งเกม หากเป็น Steam  
-`\steamapps\common\Hogwarts Legacy\Phoenix\Content\Pak\~mods`{: .filepath}
+`\steamapps\common\Hogwarts Legacy\Phoenix\Content\Pak\~mods`{: .filepath}  
 สร้างโฟลเดอร์ ~mods ขึ้นมา ลากไฟล์ในไฟล์ .zip ใส่เข้าไปในโฟลเดอร์ได้เลย
 
 [คลิปตัวอย่างการติดตั้ง](https://youtu.be/8XYpghtSNVg)

@@ -31,5 +31,5 @@ order: 5
 ## ช่องทางการติดต่อ
 
 หากชื่นชอบในผลงานของเรา มีเกมที่อยากให้เราแปล อยากจ้างงานเชิญได้ที่  
-<i class="fa-brands fa-square-facebook"></i> [hamstersquad](https://www.facebook.com/onehamstersquad/)
+<i class="fa-brands fa-square-facebook"></i> [hamstersquad](https://www.facebook.com/onehamstersquad/)  
 <i class="fa-solid fa-envelope"></i> <onetucker@duck.com>
