@@ -1,6 +1,6 @@
 ---
 title: It Takes Two
-date: 2023-02-17 16:33:00 +0700
+date: 2023-02-17 08:57:00 +0700
 categories: [Mods]
 tags: [modding,localization]
 description: ม็อดแปลภาษาไทยเกม It Takes Two ซับไตเติล และ UI ทั้งหมด
@@ -22,5 +22,5 @@ image:
 ![Preview2](https://staticdelivery.nexusmods.com/mods/5143/images/1/1-1676382029-1788377586.png){: width="972" height="589" }
 
 ## ดาวน์โหลด
-[**NexusMods**](https://www.nexusmods.com/ittakestwo/mods/1)
+[**Nexus Mods**](https://www.nexusmods.com/ittakestwo/mods/1)
 

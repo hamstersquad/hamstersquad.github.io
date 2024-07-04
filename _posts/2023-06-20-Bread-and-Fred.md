@@ -1,6 +1,6 @@
 ---
 title: Bread & Fred
-date: 2023-06-20 16:33:00 +0700
+date: 2023-06-20 16:29:00 +0700
 categories: [Mods]
 tags: [modding,localization]
 description: ม็อดแปลภาษาไทยเกม Bread & Fred ทั้งบทพูด และคำอธิบายต่าง ๆ ในเกม
@@ -27,5 +27,5 @@ image:
 ![Preview2](https://staticdelivery.nexusmods.com/mods/5401/images/1/1-1685352285-632866065.png){: width="972" height="589" }
 
 ## ดาวน์โหลด
-[**NexusMods**](https://www.nexusmods.com/breadandfred/mods/1)
+[**Nexus Mods**](https://www.nexusmods.com/breadandfred/mods/1)
 

@@ -1,6 +1,6 @@
 ---
 title: Project Winter
-date: 2023-02-27 16:33:00 +0700
+date: 2023-02-27 13:59:00 +0700
 categories: [Mods]
 tags: [modding,localization]
 description: ม็อดแปลภาษาไทยเกม Project Winter ทั้ง UI และคำอธิบายต่าง ๆ ในเกม
@@ -25,4 +25,4 @@ image:
 ![Preview](https://staticdelivery.nexusmods.com/mods/5164/images/1/1-1677157240-172568895.png){: width="972" height="589" }
 
 ## ดาวน์โหลด
-[**NexusMods**](https://www.nexusmods.com/projectwinter/mods/1)
+[**Nexus Mods**](https://www.nexusmods.com/projectwinter/mods/1)

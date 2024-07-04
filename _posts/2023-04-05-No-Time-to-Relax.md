@@ -1,6 +1,6 @@
 ---
 title: No Time to Relax
-date: 2023-04-05 16:33:00 +0700
+date: 2023-04-05 08:54:00 +0700
 categories: [Mods]
 tags: [modding,localization]
 description: ม็อดแปลภาษาไทยเกม No Time to Relax คำอธิบาย และ UI ทั้งหมด
@@ -27,5 +27,5 @@ image:
 ![Preview2](https://staticdelivery.nexusmods.com/mods/5131/images/1/1-1676076918-15206083.jpeg){: width="972" height="589" }
 
 ## ดาวน์โหลด
-[**NexusMods**](https://www.nexusmods.com/notimetorelax/mods/1)
+[**Nexus Mods**](https://www.nexusmods.com/notimetorelax/mods/1)
 
