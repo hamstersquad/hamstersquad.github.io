@@ -1,6 +1,6 @@
 ---
 title: Project Winter
-date: 2023-02-27 13:59:00 +0700
+date: 2022-12-27 15:22:00 +0700
 categories: [Mods]
 tags: [modding,localization]
 description: ม็อดแปลภาษาไทยเกม Project Winter ทั้ง UI และคำอธิบายต่าง ๆ ในเกม
