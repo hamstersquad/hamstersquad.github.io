@@ -24,8 +24,9 @@ image:
 
 ## ภาพตัวอย่าง
 
-![Preview](https://staticdelivery.nexusmods.com/mods/5143/images/1/1-1676382005-1925646904.png){: width="972" height="589" }
-![Preview2](https://staticdelivery.nexusmods.com/mods/5143/images/1/1-1676382029-1788377586.png){: width="972" height="589" }
+![Preview](https://staticdelivery.nexusmods.com/mods/5113/images/1409/1409-1688785614-1438522915.png){: width="972" height="589" }
+![Preview2](https://staticdelivery.nexusmods.com/mods/5113/images/1409/1409-1688786838-1432405255.png){: width="972" height="589" }
+![Preview3](https://staticdelivery.nexusmods.com/mods/5113/images/1409/1409-1688785613-558441.png){: width="972" height="589" }
 
 ## ทีมผู้จัดทำ
 
