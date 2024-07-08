@@ -4,9 +4,6 @@ date: 2023-07-08 23:35:00 +0700
 categories: [How To]
 tags: [sheets,google]
 description: Regular expressions
-image:
-  path:
-  lqip:
 ---
 
 ## นิพจน์ปกติ
