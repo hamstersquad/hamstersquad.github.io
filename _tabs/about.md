@@ -10,7 +10,7 @@ order: 5
 
 ![JD](../assets/img/pfp/jd.jpg){: width="175" height="175" .left}
 
-**Jirathip D.**
+**Jirathip D. (Tucker)**
 
 วัยรุ่นหมดไฟ แต่ใจพร้อมเรียนรู้ นักม็อด และนักแปลประจำทีม
 
