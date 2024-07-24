@@ -20,7 +20,7 @@ order: 5
   
   
 ![PG](../assets/img/pfp/pg.jpg){: width="175" height="175" .right}
-
+  
 **Paradorn G.**
 
 แฮมสเตอร์แรงงาน aka. ลาเต้บอย นักแปล และตรวจทานประจำทีม
